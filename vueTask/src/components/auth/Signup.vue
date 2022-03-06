@@ -97,7 +97,7 @@ export default {
       axios
         .post(`${API}/api/auth/signup`, this.form)
        .then((response) => {
-         console.log("ffffffffffffffffffffffffffff:"+JSON.stringify(response))
+      
           axios
         .post(`${API}/api/send-token`, {email:this.form.email}).then((res)=>{
       this.$router.push({name:'validateCustomer'})
