@@ -24,7 +24,7 @@
       <v-row class="text-center">
         <v-text-field
           v-model="form.SKE"
-          label="name"
+          label="product code"
           required
         ></v-text-field>
       </v-row>
