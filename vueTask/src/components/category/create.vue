@@ -53,7 +53,7 @@ import axios from 'axios'
   
   export default {
 created(){
-    if(User.IsAdmin() ==1){
+    if(User.IsAdmin() ==0){
          this.$swal({
               title: 'this action for admins only?',
               icon: 'warning',
