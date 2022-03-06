@@ -5,7 +5,7 @@
   <div>
 
  <div class="row">
-  <router-link to="/store-brand" class="btn btn-primary add">Add Brand </router-link>
+  <router-link to="/storeBrand" class="btn btn-primary add">Add Brand </router-link>
    
  </div>
 <br>
