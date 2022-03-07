@@ -65,7 +65,7 @@ export default {
          User.responseAfterLogin(res);
           store.state.logedin = true ;
       router.push({name:'home'})
-        }).catch();
+        }).catch(error =>errors.value = error.response.data.errors);
         };
 
     
