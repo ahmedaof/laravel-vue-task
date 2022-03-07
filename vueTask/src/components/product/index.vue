@@ -131,10 +131,9 @@ import { API } from "../../config/config"
               icon: 'warning',
               confirmButtonColor: '#3085d6',
               cancelButtonColor: '#d33',
-            }).then((result) => {
-              })
-    }
-            Swal.fire({
+            })
+           }else{
+             this.$swal.fire({
               title: 'Are you sure?',
               text: "You won't be able to revert this!",
               icon: 'warning',
@@ -153,14 +152,10 @@ import { API } from "../../config/config"
                .catch(() => {
                 this.$router.push({name: 'product'})
                })
-                Swal.fire(
-                  'Deleted!',
-                  'Your file has been deleted.',
-                  'success'
-                )
               }
             })
 
+  } 
   } 
 
   },
