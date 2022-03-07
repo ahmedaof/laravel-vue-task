@@ -41,7 +41,6 @@ class BrandsCategoriesController extends Controller
         $category = Category::find($request->category_id);
         $brand = Brand::find($request->brand_id);
         $brand->categories()->attach($category);
-        $category->brands()->attach($brand);
         return 'success';
     }
 
