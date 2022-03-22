@@ -7,13 +7,6 @@ for the app work perfect u need to add mailtrap or any server in env to send mai
 
 the description of the task
 
-the site link https://task-for-blue-team.web.app/
-
-
-there is some issue in online app and this issue not locall ofcourse maybe because the server free
-first issue i can't send email to verify user or to reset email so i remove this part from online but it works fine locally
-second one sometimes not retriving all the data 
-
 technology in this site
 deployment
 heroku as a server for the laravel backend
